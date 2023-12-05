@@ -1,0 +1,40 @@
+Chose device: name='Tesla V100-SXM2-16GB' index=0
+Running single precision test
+Initializing host memory.
+Copying data to device.
+Running benchmark with size 262144
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Running double precision test
+Initializing host memory.
+Copying data to device.
+Running benchmark with size 131072
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Scan	262144items	GB/s	88.7289	88.5609	0.508179	87.0594	88.8916	87.0594	88.5304	88.7064	88.7355	88.7665	88.6595	88.7223	88.8916	88.7965	88.7411	
+Scan-DP	131072items	GB/s	82.5236	82.5027	0.0744155	82.3721	82.5935	82.3721	82.3721	82.5935	82.4676	82.5301	82.5553	82.5789	82.5488	82.5171	82.4912	
+Scan-DP_PCIe	131072items	GB/s	4.98215	4.98208	0.000271532	4.9816	4.98241	4.9816	4.9816	4.98241	4.98195	4.98218	4.98227	4.98236	4.98225	4.98213	4.98204	
+Scan-DP_Parity	131072items	N	15.5638	15.5599	0.0140347	15.5353	15.577	15.5353	15.5353	15.577	15.5533	15.5651	15.5698	15.5743	15.5686	15.5626	15.5577	
+Scan_PCIe	262144items	GB/s	4.42852	4.4281	0.00128824	4.42429	4.42893	4.42429	4.42803	4.42847	4.42854	4.42862	4.42835	4.42851	4.42893	4.42869	4.42855	
+Scan_Parity	262144items	N	19.0358	18.9997	0.109024	18.6776	19.0707	18.6776	18.9932	19.0309	19.0372	19.0438	19.0209	19.0344	19.0707	19.0503	19.0384	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

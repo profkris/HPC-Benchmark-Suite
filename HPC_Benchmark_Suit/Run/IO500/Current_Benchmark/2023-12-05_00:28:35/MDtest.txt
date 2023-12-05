@@ -1,0 +1,24 @@
+-- started at 12/05/2023 00:28:50 --
+
+mdtest-3.3.0 was launched with 5 total task(s) on 5 node(s)
+Command line used: mdtest '-n' '4'
+Path: /home/cdacapp1/sanket/Benchmark_Suite/HPC_Benchmark_Suit/Final
+FS: 284.6 TiB   Used FS: 22.6%   Inodes: 1726.6 Mi   Used Inodes: 15.1%
+
+Nodemap: 11111
+5 tasks, 20 files/directories
+
+SUMMARY rate: (of 1 iterations)
+   Operation                      Max            Min           Mean        Std Dev
+   ---------                      ---            ---           ----        -------
+   Directory creation        :       4046.246          0.000       3236.920       1618.460
+   Directory stat            :      10150.579          0.000       8119.997       4059.999
+   Directory removal         :       6360.237          0.000       5087.818       2543.909
+   File creation             :       3442.720          0.000       2753.537       1376.768
+   File stat                 :      19548.164          0.000       7807.846       9562.637
+   File read                 :      17404.683          0.000       6954.314       8517.268
+   File removal              :       5693.310          0.000       2277.198       2788.986
+   Tree creation             :       2956.341       2956.341       2956.341          0.000
+   Tree removal              :       6046.351       6046.351       6046.351          0.000
+-- finished at 12/05/2023 00:28:50 --
+

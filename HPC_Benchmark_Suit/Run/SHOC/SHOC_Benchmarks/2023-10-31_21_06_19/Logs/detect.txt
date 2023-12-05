@@ -1,0 +1,2 @@
+Running this command to detect devices:
+/home/hpctechtest/sanket/Benchmark_Suit/Setup/SHOC/Installation_Path/shoc/my_bin/bin/Serial/CUDA/BusSpeedDownload -i > Logs/deviceInfo.txt 2> Logs/deviceInfo.err

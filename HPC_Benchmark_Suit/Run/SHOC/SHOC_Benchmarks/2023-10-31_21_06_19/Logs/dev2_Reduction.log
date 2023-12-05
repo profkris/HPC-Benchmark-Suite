@@ -1,0 +1,38 @@
+Chose device: name='Tesla V100-SXM2-16GB' index=0
+Running single precision test
+Initializing host memory.
+Running benchmark.
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Running double precision test
+Initializing host memory.
+Running benchmark.
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Reduction	262144_items	GB/s	254.973	253.918	3.23545	244.324	255.774	244.324	254.609	254.818	254.123	255.128	254.339	255.774	255.353	255.275	255.439	
+Reduction-DP	131072_items	GB/s	298.926	298.701	0.889668	296.156	299.647	296.156	298.633	299.016	299.647	299.134	298.889	298.963	299.07	298.697	298.803	
+Reduction-DP_PCIe	131072_items	GB/s	9.09955	9.068	0.141887	8.66731	9.19503	8.66731	9.02519	9.0856	9.12667	9.1135	9.07039	9.14897	9.16955	9.07775	9.19503	
+Reduction-DP_Parity	131072_items	N	31.8681	31.947	0.43951	31.4962	33.1693	33.1693	32.0889	31.911	31.832	31.8231	31.9521	31.6773	31.6155	31.9043	31.4962	
+Reduction_PCIe	262144_items	GB/s	8.99585	8.77346	0.610717	6.97619	9.1013	6.97619	8.63976	8.96625	8.95803	9.03337	8.9804	9.02175	9.0113	9.1013	9.04623	
+Reduction_Parity	262144_items	N	27.3439	28.0817	2.01352	27.0482	34.0225	34.0225	28.4695	27.4197	27.3682	27.2428	27.3216	27.3508	27.337	27.0482	27.237	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.

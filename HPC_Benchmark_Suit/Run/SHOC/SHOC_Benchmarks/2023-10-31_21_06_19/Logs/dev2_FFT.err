@@ -1,0 +1,3 @@
+Warning: device index: 2 out of range, defaulting to device 0.
+used_bytes=1048576, N=131072
+used_bytes=1048576, N=65536

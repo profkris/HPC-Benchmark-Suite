@@ -1,0 +1,19 @@
+Chose device: name='Tesla V100-SXM2-16GB' index=0
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+Test Passed
+test	atts	units	median	mean	stddev	min	max	trial0	trial1	trial2	trial3	trial4	trial5	trial6	trial7	trial8	trial9	
+Sort-Rate	262144items	GB/s	9.45208	9.27104	0.492898	7.79819	9.4856	7.79819	9.32499	9.42286	9.44731	9.45958	9.4856	9.46368	9.39315	9.45822	9.45685	
+Sort-Rate_PCIe	262144items	GB/s	3.48753	3.43507	0.142806	3.0108	3.4988	3.0108	3.42564	3.47763	3.48318	3.49209	3.4988	3.49283	3.48614	3.49469	3.48893	
+Sort-Rate_Parity	262144items	N	1.70951	1.69748	0.0363672	1.59008	1.72211	1.59008	1.72211	1.70956	1.71227	1.70886	1.7111	1.70946	1.69442	1.70645	1.71053	
+
+Note: Any results marked with (*) had missing values.
+      This can occur on systems with a mixture of
+      device types or architectural capabilities.
